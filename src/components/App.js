@@ -9,8 +9,7 @@ class App extends Component {
       <div className="App">
          <div className="container">
          <h1 className="display-4"> Avijit Chowdhury</h1>
-         <Title name="Avijit Chowdhury" email="avijit.chy019@gmail.com" />
-         <Title name="React" email= "react@facebook.com" />
+         <Title />
          </div>
       </div>
     );
