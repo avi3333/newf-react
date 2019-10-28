@@ -8,8 +8,11 @@ class App extends Component {
     return (
       <div className="App">
          <div className="container">
-         <h1 className="display-4"> Avijit Chowdhury</h1>
-         <Title />
+         <div className="row">
+            <div className="col-sm-8 offset-sm-2">
+                <Title />
+            </div>
+         </div>
          </div>
       </div>
     );
